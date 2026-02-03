@@ -33,6 +33,17 @@ The AQI categories used in this system are aligned with widely accepted air qual
 
 The model was trained on historical air quality data collected from Pakistan. SMOTE was applied to improve predictive performance for underrepresented AQI categories and ensure balanced classification behavior.
 
+#Class Imbalance Handling
+The original dataset showed significant class imbalance across AQI categories.  
+To address this, **SMOTE (Synthetic Minority Over-sampling Technique)** was applied:
+
+- **Before SMOTE:**  
+  `{5: 41555, 4: 18821, 3: 16379, 2: 8256, 1: 1182}`
+
+- **After SMOTE:**  
+  `{1: 41555, 2: 41555, 3: 41555, 4: 41555, 5: 41555}`
+
+This improved the model’s ability to correctly predict minority AQI classes.
 
 ## Model Performance Summary
 - Achieves approximately **91% validation accuracy** on unseen data  
