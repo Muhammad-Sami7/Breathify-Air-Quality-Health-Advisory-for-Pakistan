@@ -16,11 +16,13 @@ The system predicts standardized AQI categories and presents health advisories i
 # Air Quality Index (AQI) Categories
 The AQI categories used in this system are aligned with widely accepted air quality standards and are defined as follows:
 
-| AQI Level | Category   
-| 1         | Good
-| 2         | Fair 
-| 3         | Moderate 
-| 5         | Very Poor
+| AQI Level | Category     | Health Interpretation |
+|---------:|--------------|-----------------------|
+| 1 | Good | Air quality is satisfactory and poses little or no health risk. |
+| 2 | Fair | Air quality is acceptable; individuals with respiratory sensitivity may experience minor discomfort. |
+| 3 | Moderate | Sensitive groups may experience health effects; the general population is unlikely to be affected. |
+| 4 | Poor | Increased likelihood of adverse health effects for all individuals, particularly vulnerable groups. |
+| 5 | Very Poor | Serious health risks may occur; prolonged or outdoor exposure should be avoided. |
 
 ---
 
